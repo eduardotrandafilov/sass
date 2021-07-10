@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.container {
+  background-color: #e30b1a;
+  padding: 50px;
+}
+.container #title {
+  background-color: #0be328;
+  padding: 20px;
+  color: #dbdb0b;
+  text-align: center;
+}
+
+.container-bottom {
+  background-color: #db0bd4;
+  padding: 10px;
+  text-align: center;
+}
+.container-bottom p {
+  font-size: 100px;
+}
+
+/*comentário incluso no css
+ *   120   */
+/*!este comentario tambem sera incluso */
+
+/*# sourceMappingURL=style.css.map */
