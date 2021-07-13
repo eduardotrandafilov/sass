@@ -1,9 +1,4 @@
-//escopo global
-$text-color:red
-$bg-color:blue
-$h2-color:green 
-$border: 2px solid red
-
+@import "variables"
 h1
     color: $text-color
     border: $border
@@ -11,6 +6,10 @@ h1
 p
     color: $text-color
     border: $border
+    font-size: $main-font 
+    margin: #{$mx + 10px}
+    padding: #{$px + $py}
+
 
 a
     color: $text-color

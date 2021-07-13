@@ -6,6 +6,9 @@ h1 {
 p {
   color: red;
   border: 2px solid red;
+  font-size: 3rem;
+  margin: 20px;
+  padding: 16px;
 }
 
 a {
