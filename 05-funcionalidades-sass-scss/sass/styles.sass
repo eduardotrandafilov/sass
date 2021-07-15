@@ -1,7 +1,7 @@
 @import 'variables'
-@import'button'
+@import'button' 
 @import 'mixins'
-
+@import 'plugins'
 
 body
     margin: 20px
@@ -10,19 +10,22 @@ body
     @include special
 
 h2
-    @include special
+    @extend %special
     @include green
-
 
 .esp-menor
     @include espacamento(10px,10px)
     @include custom-border(red)
     @include colors
+    @extend %font-pattern
+
 
 .esp-medio
     @include espacamento(15px,15px)
     @include custom-border(dotted,blue,3px)
     @include colors($background:indigo)
+    @extend %font-pattern
+
 
 .esp-maior
     @include espacamento(25px,25px)

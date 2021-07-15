@@ -6,6 +6,23 @@
   margin: 10px;
 }
 
+.esp-medio, .esp-menor {
+  font-size: 2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: red;
+  background-color: yellow;
+  padding: 10px;
+  border: 1px solid red;
+}
+h2:hover {
+  border-color: blue;
+  color: blue;
+}
+
 body {
   margin: 20px;
 }
@@ -22,16 +39,8 @@ body {
 }
 
 h2 {
-  color: red;
-  background-color: yellow;
-  padding: 10px;
-  border: 1px solid red;
   border-color: green;
   color: green;
-}
-h2:hover {
-  border-color: blue;
-  color: blue;
 }
 
 .esp-menor {
