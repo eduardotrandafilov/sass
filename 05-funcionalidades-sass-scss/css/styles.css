@@ -26,6 +26,8 @@ h2 {
   background-color: yellow;
   padding: 10px;
   border: 1px solid red;
+  border-color: green;
+  color: green;
 }
 h2:hover {
   border-color: blue;
