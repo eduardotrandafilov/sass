@@ -17,3 +17,10 @@
 @mixin espacamento($p,$m)
     padding: $p
     margin: $m
+
+@mixin custom-border($color,$width:10px,$style: dotted)
+    border: $width $style $color
+
+@mixin colors($font:#000,$background:#FFF)
+    color: $font
+    background-color:$background

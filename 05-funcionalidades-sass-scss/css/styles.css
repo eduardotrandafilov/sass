@@ -37,25 +37,31 @@ h2:hover {
 .esp-menor {
   padding: 10px;
   margin: 10px;
-  border: 1px solid red;
+  border: 10px dotted red;
+  color: #000;
+  background-color: #FFF;
 }
 
 .esp-medio {
   padding: 15px;
   margin: 15px;
-  border: 1px solid blue;
+  border: blue 3px dotted;
+  color: #000;
+  background-color: indigo;
 }
 
 .esp-maior {
   padding: 25px;
   margin: 25px;
-  border: 1px solid green;
+  border: 10px dotted blue;
+  color: yellow;
+  background-color: green;
 }
 
 .esp-maior-ainda {
   padding: 50px;
   margin: 50px;
-  border: 1px solid gold;
+  border: 5px dotted indigo;
 }
 
 /*# sourceMappingURL=styles.css.map */
