@@ -1,0 +1,21 @@
+@import 'variables'
+@import'button'
+
+@mixin special
+    color: red
+    background-color: yellow
+    padding: 10px
+    border: 1px solid red
+
+    &:hover
+        border-color: blue
+        color: blue
+    
+body
+    margin: 20px
+
+.p-esp
+    @include special
+
+h2
+    @include special
