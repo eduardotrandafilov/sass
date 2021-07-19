@@ -76,11 +76,15 @@ h2 {
 .container-menor {
   width: 600px;
   border: 10px dotted green;
+  font-size: 10px;
+  color: red;
 }
 
 .container-maior {
   width: 25rem;
   border: 10px solid red;
+  font-size: 25px;
+  color: blue;
 }
 
 /*# sourceMappingURL=styles.css.map */

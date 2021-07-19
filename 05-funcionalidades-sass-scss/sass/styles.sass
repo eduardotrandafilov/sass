@@ -3,6 +3,7 @@
 @import'button' 
 @import 'mixins'
 @import 'plugins'
+@import 'functions'
 
 body
     margin: 20px
@@ -45,7 +46,12 @@ $medida:4
 .container-menor
     width:  100px * ($medida+2)
     @include custom-border($color: green)
+    font-size: 10px
+    color: text-color(10)
 
 .container-maior
     width: 25rem * math.div($medida,4)
     @include custom-border(red,$style: solid)
+    font-size: 25px
+    color: text-color(25)
+
