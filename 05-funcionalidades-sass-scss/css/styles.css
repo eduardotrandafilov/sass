@@ -91,4 +91,8 @@ h2 {
   border: 3px double blue;
 }
 
+.custom-width {
+  width: 250px;
+}
+
 /*# sourceMappingURL=styles.css.map */
