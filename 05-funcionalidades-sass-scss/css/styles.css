@@ -73,4 +73,14 @@ h2 {
   border: 5px dotted indigo;
 }
 
+.container-menor {
+  width: 600px;
+  border: 10px dotted green;
+}
+
+.container-maior {
+  width: 25rem;
+  border: 10px solid red;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,4 @@
+@use "sass:math"
 @import 'variables'
 @import'button' 
 @import 'mixins'
@@ -39,4 +40,12 @@ h2
     @include espacamento($pad,$mag)
     @include custom-border(indigo,5px)
 
+$medida:4
 
+.container-menor
+    width:  100px * ($medida+2)
+    @include custom-border($color: green)
+
+.container-maior
+    width: 25rem * math.div($medida,4)
+    @include custom-border(red,$style: solid)
