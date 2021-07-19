@@ -65,3 +65,20 @@ $medida:4
 
 .custom-width
     width: custom-width-function(500px)
+
+$fonts: 4px,6px,10px
+
+@each $font in $fonts
+    .title-#{$font}
+        font-size: $font
+        line-height: $font * 1.2
+
+@for $i from 1 through 3
+    .p-#{$i}
+        @if $i == 1
+            color: lightblue
+        @else if $i == 2
+            color: lightgreen
+        @else if $i == 3
+            color: teal
+        background-color: black

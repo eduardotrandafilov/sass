@@ -95,4 +95,34 @@ h2 {
   width: 250px;
 }
 
+.title-4px {
+  font-size: 4px;
+  line-height: 4.8px;
+}
+
+.title-6px {
+  font-size: 6px;
+  line-height: 7.2px;
+}
+
+.title-10px {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.p-1 {
+  color: lightblue;
+  background-color: black;
+}
+
+.p-2 {
+  color: lightgreen;
+  background-color: black;
+}
+
+.p-3 {
+  color: teal;
+  background-color: black;
+}
+
 /*# sourceMappingURL=styles.css.map */
