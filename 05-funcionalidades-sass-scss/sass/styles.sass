@@ -1,9 +1,13 @@
+@charset 'UTF-8'
+
 @use "sass:math"
 @import 'variables'
 @import'button' 
 @import 'mixins'
 @import 'plugins'
 @import 'functions'
+
+//@error 'Este software não está funcionando'
 
 body
     margin: 20px
@@ -54,4 +58,7 @@ $medida:4
     @include custom-border(red,$style: solid)
     font-size: 25px
     color: text-color(25)
+
+.container-medio
+    border: custom-border-function(3)
 

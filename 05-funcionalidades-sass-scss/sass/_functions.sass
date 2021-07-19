@@ -8,3 +8,19 @@
         $color: red
 
     @return $color
+
+@function custom-border-function($variable:1)
+
+    $border: none
+
+    @if $variable >3
+        @error 'insira variações até o número 3'
+
+    @if ($variable == 1 )
+        $border: 3px dotted green
+    @else if ($variable == 2)
+        $border: 3px solid red
+    @else 
+        $border: 3px double blue
+
+    @return $border

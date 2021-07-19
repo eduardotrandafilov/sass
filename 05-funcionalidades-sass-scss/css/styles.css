@@ -87,4 +87,8 @@ h2 {
   color: blue;
 }
 
+.container-medio {
+  border: 3px double blue;
+}
+
 /*# sourceMappingURL=styles.css.map */
