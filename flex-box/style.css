@@ -7,28 +7,22 @@ body{
     flex-direction: row;
     width:100%;
     background-color:#FFF;
+    justify-content: space-evenly;
 }
 
 .box{
     height: 100px;
-    flex: 1 1 auto;
-
-    /*flex: <grow> <shrink> <basis>;*/
-
+    width: 100px;
 }
 
 .first{
     background-color: red;
-    order: 3;
-    flex: 2 1 auto;
 }
 
 .second{
     background-color: green;
-    order:1;
 }
 
 .third{
     background-color: blue;
-    order:2;
 }
