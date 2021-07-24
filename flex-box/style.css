@@ -19,12 +19,17 @@ body{
 
 .first{
     background-color: red;
+    align-self: flex-start;
 }
 
 .second{
     background-color: green;
+    align-self: flex-end;
+
 }
 
 .third{
     background-color: blue;
+    align-self: center;
+
 }
