@@ -4,26 +4,27 @@ body{
 
 .container{
     display:flex;
-    border: 1px solid black;
+    width:100%;
     background-color:#FFF;
 }
 
 .box{
-    width: 100px;
     height: 100px;
+    flex-basis: 100px;
+    flex-grow: 1;
 }
 
 .first{
     background-color: red;
-    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .second{
     background-color: green;
-    flex-grow: 2;
+    flex-shrink: 1;
 }
 
 .third{
     background-color: blue;
-    /*flex-grow: 1;*/
+    flex-shrink: 2;
 }
